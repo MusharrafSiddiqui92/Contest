@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://themewagon.github.io/eflyer/images/banner-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.container .nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.container .nav ul li{
+    list-style-type: none;
+    
+}
+.container .nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 80vw;
+    height: 70px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+.heading{
+    margin-top:20px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+.container2{
+display: flex;
+    /* border: 2px solid black; */
+    /* margin-left: 135px; */
+    /* margin-top: 15px; */
+    width: 50vw;
+    gap: 20px;
+    align-items: center;
+    /* padding-left: 5px; */
+    
+}
+.menu1{
+    display: flex;
+    /* border: 2px solid black; */
+    margin-left: 135px;
+    margin-top: 15px;
+    width: 80vw;
+    gap: 20px;
+    padding-left: 5px;
+}
+.dropdown2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 50px;
+}
+.menu1 .container2 .menu .fa-solid.fa.bars{
+    font-size: 20px;
+    color: white;
+}
+.slide{
+    padding-top: 30px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
